@@ -1,0 +1,19 @@
+{
+  "name": "HTTP headers",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "An extension to view HTTP response headers",
+  "icons": { 
+	"16": "icon16.png", 
+	"128": "icon128.png" 
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_title": "Get HTTP response headers",
+	"default_popup": "popup.html"
+  },
+  "permissions": [
+	"http://*/*", "https://*/*", "ftp://*/*",
+	"tabs"
+  ]
+}
